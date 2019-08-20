@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+  <widget class="Custom\CustomWidget\Block\Widget\Samplewidget" id="custom_customwidget_samplewidget">
+    <label>Custom Sample Widget</label>
+    <description></description>
+    <parameters>
+      <parameter name="widgetcontent" xsi:type="block" required="true" visible="true" sort_order="3">
+        <label translate="true">Text</label>
+        <block class="Custom\CustomWidget\Block\Widget\TextField" />
+      </parameter>
+
+    </parameters>
+  </widget>
+
+  <widget class="Custom\CustomWidget\Block\Widget\BlockWrap" id="custom_customwidget_blockwrap">
+    <label>BlockWrap</label>
+    <description></description>
+  </widget>
+</widgets>
